@@ -35,9 +35,9 @@ class PowerDatumEntity {
   final String otherTripTime;
   final String otherTripTime2;
 
-  final String totalFlowToday;
-  final String cumulativeFlowToday;
-  final String averageFlowRate;
+  // final String totalFlowToday;
+  // final String cumulativeFlowToday;
+  // final String averageFlowRate;
   final String pressureIn;
   final String pressureOut;
 
@@ -65,9 +65,9 @@ class PowerDatumEntity {
     required this.cyclicTripTime2,
     required this.otherTripTime,
     required this.otherTripTime2,
-    required this.totalFlowToday,
-    required this.cumulativeFlowToday,
-    required this.averageFlowRate,
+    // required this.totalFlowToday,
+    // required this.cumulativeFlowToday,
+    // required this.averageFlowRate,
     required this.pressureIn,
     required this.pressureOut,
     required this.battery1Volt,
@@ -95,9 +95,9 @@ class PowerDatumEntity {
       'cyclicTripTime2': cyclicTripTime2,
       'otherTripTime': otherTripTime,
       'otherTripTime2': otherTripTime2,
-      'totalFlowToday': totalFlowToday,
-      'cumulativeFlowToday': cumulativeFlowToday,
-      'averageFlowRate': averageFlowRate,
+      // 'totalFlowToday': totalFlowToday,
+      // 'cumulativeFlowToday': cumulativeFlowToday,
+      // 'averageFlowRate': averageFlowRate,
       'pressureIn': pressureIn,
       'pressureOut': pressureOut,
       'battery1Volt': battery1Volt,

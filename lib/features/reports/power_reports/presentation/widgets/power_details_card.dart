@@ -27,9 +27,9 @@ class PowerDetailsCard extends StatelessWidget {
         Card(
           child: Column(
             children: [
-              RowItem("Total Flow", data.totalFlowToday, Colors.red, unit: "Liters",unitIcons: "assets/images/report_menu/other_trip_time.png",),
-              RowItem("Cumulative Flow", data.cumulativeFlowToday, Colors.red, unit: "Liters",unitIcons: "assets/images/report_menu/avarage_flow_rate.png",),
-              RowItem("Average Flow Rate", data.averageFlowRate, Colors.red, unit: "L/s",unitIcons: "assets/images/report_menu/avarage_flow_rate.png",),
+              // RowItem("Total Flow", data.totalFlowToday, Colors.red, unit: "Liters",unitIcons: "assets/images/report_menu/other_trip_time.png",),
+              // RowItem("Cumulative Flow", data.cumulativeFlowToday, Colors.red, unit: "Liters",unitIcons: "assets/images/report_menu/avarage_flow_rate.png",),
+              // RowItem("Average Flow Rate", data.averageFlowRate, Colors.red, unit: "L/s",unitIcons: "assets/images/report_menu/avarage_flow_rate.png",),
               RowItem("Pressure In", data.pressureIn, Colors.red, unit: "Bar",unitIcons: "assets/images/report_menu/pressure_in.png",),
               RowItem("Pressure Out", data.pressureOut, Colors.red, unit: "Bar",unitIcons:"assets/images/report_menu/pressure_out.png",),
             ],

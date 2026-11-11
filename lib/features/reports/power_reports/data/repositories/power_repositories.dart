@@ -32,7 +32,9 @@ class PowerGraphRepositoryImpl implements PowerGraphRepository {
       code: model.code,
       message: model.message,
       data: model.data.map(
-            (d) => PowerDatumEntity(date: d.date ?? '' , time: d.time ?? '', totalPowerOnTime: d.totalPowerOnTime, totalPowerOffTime: d.totalPowerOffTime, motorRunTime: d.motorRunTime, motorRunTime2: d.motorRunTime2, motorIdleTime: d.motorIdleTime, motorIdleTime2: d.motorIdleTime2, dryRunTripTime: d.dryRunTripTime, dryRunTripTime2: d.dryRunTripTime2, cyclicTripTime: d.cyclicTripTime, cyclicTripTime2: d.cyclicTripTime2, otherTripTime: d.otherTripTime, otherTripTime2: d.otherTripTime2, totalFlowToday: d.totalFlowToday, cumulativeFlowToday: d.cumulativeFlowToday, averageFlowRate: d.averageFlowRate, pressureIn: d.pressureIn, pressureOut: d.pressureOut, battery1Volt: d.battery1Volt, battery2Volt: d.battery2Volt, battery3Volt: d.battery3Volt, battery4Volt: d.battery4Volt, solar1Volt: d.solar1Volt, solar2Volt: d.solar2Volt, solar3Volt: d.solar3Volt, solar4Volt: d.solar4Volt),
+            (d) => PowerDatumEntity(date: d.date ?? '' , time: d.time ?? '', totalPowerOnTime: d.totalPowerOnTime, totalPowerOffTime: d.totalPowerOffTime, motorRunTime: d.motorRunTime, motorRunTime2: d.motorRunTime2, motorIdleTime: d.motorIdleTime, motorIdleTime2: d.motorIdleTime2, dryRunTripTime: d.dryRunTripTime, dryRunTripTime2: d.dryRunTripTime2, cyclicTripTime: d.cyclicTripTime, cyclicTripTime2: d.cyclicTripTime2, otherTripTime: d.otherTripTime, otherTripTime2: d.otherTripTime2,
+                // totalFlowToday: d.totalFlowToday, cumulativeFlowToday: d.cumulativeFlowToday, averageFlowRate: d.averageFlowRate,
+                pressureIn: d.pressureIn, pressureOut: d.pressureOut, battery1Volt: d.battery1Volt, battery2Volt: d.battery2Volt, battery3Volt: d.battery3Volt, battery4Volt: d.battery4Volt, solar1Volt: d.solar1Volt, solar2Volt: d.solar2Volt, solar3Volt: d.solar3Volt, solar4Volt: d.solar4Volt),
       ).toList(),
     );
   }
